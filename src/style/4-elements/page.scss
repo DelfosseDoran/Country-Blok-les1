@@ -1,0 +1,11 @@
+// @use '1-settings/fonts';
+
+html{
+    background: $theme-light;
+}
+
+body{
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: $font-stack;
+}

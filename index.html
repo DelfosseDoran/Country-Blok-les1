@@ -8,50 +8,153 @@
   <title>Country Blokker</title>
 </head>
 
-<body>
+<body class="c-app">
   <div>
-    <header>
-      <nav>
-        settings > <span>geoblocking</span>
+    <header class="c-header">
+      <nav class="c-header-nav">
+        settings > <span class="c-header-nav__active">geoblocking</span>
       </nav>
-      <h1>Geoblocking</h1>
-      <p>geoblocking allows you to fully block all internet traffic to your website from a spe</p>
+      <h1 class="c-header-title">Geoblocking</h1>
+      <p class="c-header-subtitle">geoblocking allows you to fully block all internet traffic to your website from a
+        specific country</p>
     </header>
-    <main>
-      <div>
-        <div>
-          <h3>Available Countries</h3>
-          <button>Move all To Blocked</button>
+    <main class="c-card ">
+      <div class="o-grid u-grid-2-cols u-grid-gap-1 c-card__back">
+        <div class="c-card__front">
+          <div class="o-flex u-space-between c-country-width c-country-item">
+            <h3>Available Countries</h3>
+            <button class="c-button-move-blue">Move all To Blocked</button>
+          </div>
+          <input class="c-input c-country-width c-country-item" placeholder="Search Countries" type="text">
+          <ul class="c-country-item c-country">
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/FR/flat/64.png" alt="">
+                France
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/DE/flat/64.png" alt="">
+                Germany
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/SE/flat/64.png" alt="">
+                Sweden
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/IT/flat/64.png" alt="">
+                Italy
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/RU/flat/64.png" alt="">
+                Rusia
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/ES/flat/64.png" alt="">
+                Spain
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country c-country-width o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/BE/flat/64.png" alt="">
+                Belgium
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-1.425-1.4 5.6-5.6H4v-2h12.175l-5.6-5.6L12 4l8 8Z" />
+                </svg>
+              </button>
+            </li>
+          </ul>
         </div>
-        <input placeholder="Search Countries" type="text">
-        <ul>
-          <li>
-            <button>
-              belgië
-            </button>
-          </li>
-        </ul>
-      </div>
 
-      <!-- blocked -->
-      <div>
-        <div>
-          <h3>Available Countries</h3>
-          <button>Move all To Blocked</button>
+        <!-- blocked -->
+        <div class="c-card__front o-flex u-flex-column u-flex-align-right">
+          <div class="o-flex u-space-between c-country-width c-country-item">
+            <h3>blocked Countries</h3>
+            <button class="c-button-move-blue">Move all To Blocked</button>
+          </div>
+          <input class="c-input c-country-width c-country-item" placeholder="Search Countries" type="text">
+          <ul class="c-country-item c-country-width c-country">
+            <li class="c-button-country o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/CA/flat/64.png" alt="">
+                Canada
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-8-8 8-8 1.425 1.4-5.6 5.6H20v2H7.825l5.6 5.6Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/JP/flat/64.png" alt="">
+                Japan
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-8-8 8-8 1.425 1.4-5.6 5.6H20v2H7.825l5.6 5.6Z" />
+                </svg>
+              </button>
+            </li>
+            <li class="c-button-country o-flex u-flex-align-center u-space-between">
+              <div class="o-flex u-flex-gap-05 u-flex-align-center">
+                <img class="c-foto" src="https://flagsapi.com/CH/flat/64.png" alt="">
+                Switzerland
+              </div>
+              <button class="c-button-arow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                  <path d="m12 20-8-8 8-8 1.425 1.4-5.6 5.6H20v2H7.825l5.6 5.6Z" />
+                </svg>
+              </button>
+            </li>
+          </ul>
         </div>
-        <input placeholder="Search Countries" type="text">
-        <ul>
-          <li>
-            <button>
-              belgië
-            </button>
-          </li>
-        </ul>
+        <footer class="u-grid-span-2-cols o-flex u-space-between c-card__front c-footer">
+          <button class="c-button">cancel</button>
+          <button class="c-button c-button-blue">save</button>
+        </footer>
       </div>
-      <footer>
-        <button>cancel</button>
-        <button>save</button>
-      </footer>
     </main>
   </div>
   <script type="module" src="/main.js"></script>

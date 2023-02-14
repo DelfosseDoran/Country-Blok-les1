@@ -1,0 +1,28 @@
+.c-header {
+}
+
+.c-header-nav {
+  color: $theme-x-dark;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  // opacity: 0.7;
+  font-weight: 500;
+}
+
+.c-header-nav__active {
+  color: $theme-dark;
+}
+
+.c-header-title {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.c-header-subtitle {
+  width: 55%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}

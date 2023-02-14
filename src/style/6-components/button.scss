@@ -1,0 +1,33 @@
+.c-button {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: $theme-x-dark;
+  border: 1px solid $border-color;
+}
+
+.c-button-blue {
+  background-color: $theme-primary;
+  color: $white;
+  border: none;
+}
+
+.c-button-move-blue{
+    color: $theme-primary;
+}
+
+.c-button-country{
+  border-radius: .5rem;
+  padding: .5rem;
+}
+.c-button-country:hover{
+  background-color: $theme-x-light;
+  .c-button-arow{
+    fill: $theme-x-dark;
+  }
+}
+
+.c-button-arow{
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: $white;
+}

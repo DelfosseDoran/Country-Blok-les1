@@ -1,0 +1,12 @@
+.c-card {
+    border: 1px solid $border-color;
+    background-color: $white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.c-card__back{
+    background-color: $border-color;
+}
+.c-card__front{
+    background-color: $white;
+}

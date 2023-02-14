@@ -1,0 +1,11 @@
+.u-grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.u-grid-span-2-cols {
+  grid-column: span 2;
+}
+
+.u-grid-gap-1 {
+  grid-gap: 1px;
+}

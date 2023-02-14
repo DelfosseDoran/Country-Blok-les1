@@ -1,10 +1,25 @@
 // ITCSS
 
 // 1. Settings
+@import '1-settings/colors';
+@import '1-settings/fonts';
 // 2. Tools
 // 3. Generic
-@forward '3-generic/reset';
+@import '3-generic/reset';
 // 4. Elements
+@import '4-elements/page';
 // 5. Objects
+@import '5-objects/grid';
+@import '5-objects/flexbox';
 // 6. Components
+@import '6-components/app';
+@import '6-components/header';
+@import '6-components/card';
+@import '6-components/button';
+@import '6-components/input';
+@import '6-components/foto';
+@import '6-components/footer';
+@import '6-components/country';
 // 7. Utilities
+@import '7-utilities/grid';
+@import '7-utilities/flexbox';

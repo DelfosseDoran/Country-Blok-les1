@@ -1,0 +1,21 @@
+.c-country{
+    height: 18rem;
+    overflow: auto;
+}
+.c-country::-webkit-scrollbar{
+    width: .5rem;
+}
+.c-country::-webkit-scrollbar-thumb{
+    background: $theme-x-light;
+    border-radius: .5rem;
+}
+
+.c-country-width{
+    width: 95%;
+}
+.c-country-item{
+    margin-bottom: 1rem;
+}
+.c-country-blocked{
+    float: right;
+}
