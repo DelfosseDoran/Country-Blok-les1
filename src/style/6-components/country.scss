@@ -1,21 +1,31 @@
-.c-country{
-    height: 18rem;
-    overflow: auto;
+.c-country {
+  height: 18rem;
+  overflow-x: hidden;
+  scrollbar-color: $theme-x-light $white;
+  scrollbar-width: thin;
+//   scrollbar
 }
-.c-country::-webkit-scrollbar{
-    width: .5rem;
+.c-country::-webkit-scrollbar {
+  width: 0.5rem;
 }
-.c-country::-webkit-scrollbar-thumb{
-    background: $theme-x-light;
-    border-radius: .5rem;
+.c-country::-webkit-scrollbar-thumb {
+  background: $theme-x-light;
+  border-radius: 0.5rem;
 }
 
-.c-country-width{
-    width: 95%;
+.c-country-width {
+  width: 95%;
 }
-.c-country-item{
-    margin-bottom: 1rem;
+.c-country-item {
+  margin-bottom: 1rem;
 }
-.c-country-blocked{
-    float: right;
+.c-country-blocked {
+  float: right;
+}
+.c-country-flag{
+    // display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    object-fit: none;
 }
